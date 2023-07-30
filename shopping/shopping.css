@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Raleway&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: content-box;
+    border: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;   
+    font-size: 16; 
+    font-weight: bold;
+}
+
+.önerilen {
+    font-size: 10px;
+    border: 1px solid rgba(200, 200, 200, 0.9);
+    padding: 5px 
+}
+
+.top {
+    background-color: #EFFBF5;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.hızlı {
+    display: flex;
+    gap: 10px;
+}
+
+.hızlı img {
+    height: 22px;
+}
+
+.info {
+    height: 8px;
+    width: 12px;
+}
+
+.uygula {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0BC15C;
+    color: white;
+}
+
+.dt {
+    height: 28px;
+}
+
+.resim {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 295px;
+    height: 442px;
+}
+
+.paran {
+    font-size: 12px;
+    color: gray;
+}
+
+.des{
+    padding: 10px;
+    height: 150px;
+}
+
+.para {
+    color: #F3892B;
+    padding-top: 30px;
+}
+
+
+.pos {
+    position: absolute;
+    margin: 10px;
+    display: flex;
+    gap: 140px;
+}
+
+.süh {
+    background-color: #0BC15C;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    width: 100px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,297px);
+    grid-template-rows: 600px 600px;
+    grid-gap: 20px;   
+}
+
+.grid1 {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.grid2 {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.grid3 {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.grid4 {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.grid5 {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.grid6 {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.grid7 {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.grid8 {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
